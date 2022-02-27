@@ -6,51 +6,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/676b23db47.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/about.css">
     <title>Who is Kevin Malomba?</title>
 </head>
 
 <body>
-    <div>
+    <div class="container-fluid">
         <header>
-            <p>Who is Kevin Malom</p>
+            <nav class=" navbar navbar-expand-lg navbar navbar-dark bg-purple ">
+                <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarNavDropdown " aria-controls="navbarNavDropdown " aria-expanded="false " aria-label="Toggle navigation ">
+                  <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavDropdown ">
+                    <div class="row justify-content-center">
+                        <div class="col">
+                            <ul class=" navbar-nav ">
+                                <li class="nav-item ">
+                                    <a class="nav-link " href="index.html ">
+                                        <strong>Home</strong> <span class="sr-only ">(current)</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="projects.html ">My Projects</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link " href="about.html ">About Me</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link " href="contact.html ">Contacts</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" col" id="row1">
+                        <span class=" icon ">
+                            <abbr title="Malomba on Facebook "> <i class="fab fa-facebook "></i></abbr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <abbr title="Malomba on Twitter "> <i class="fab fa-twitter "></i></abbr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <abbr title="Malomba on Instagram "><i class="fab fa-instagram "></i></abbr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </span>
+                    </div>
+                </div>
 
-            <div class="navlist">
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="projects.html">My Projects</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About Me</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact Me</a>
-                    </li>
-                </ul>
-            </div>
+            </nav>
+
+
         </header>
         <main>
-            <div>
-                <div>
-                    <h3>Education Background</h3>
+            <div class="container ">
+                <div class="jumbo ">
+                    <p>Who is Kevin Malomba?</p>
                 </div>
-                <div>
-                    <h3>Professiional Experience</h3>
+
+                <div class="row justify-content-around">
+                    <div class=" col-sm-4 ">
+                        <div class="card " id="card1 ">
+                            <h4>
+                                <br> Academic Background</h4>
+                            <p><img src="css/download.png" height="30%"><br> I have a background in <strong><br>Biochemistry and Molecular Biology</strong>
+                                <br><br>I am currently studying <strong>Software Development</strong> at
+                                <a href="https://moringaschool.com/" target="_blank">Moringa School</a> <br> <br>I chose to study
+                                <em>Software development</em> so as to help provide technological based solutions in my community</p>
+
+
+                        </div>
+                    </div>
+
+
+                    <div class=" col-sm-6 ">
+                        <div class=" col-sm-4 ">
+                            <div class="card " id="card1 ">
+                                <h4>
+                                    <br>Professional Experience</h4>
+                                <p><img src="./css/work.png" height="10.75%"><br> <br>Previously, I was a Program officer at the <br>
+                                    <strong>National Cancer Institute of Kenya</strong> <br><br>I also did<strong> Data Entry and Medical Sales Representative jobs</strong> </p>
+
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div>Hobbies and skills</div>
+                <div class=class="container" class="row justify-content-center" class=" col-sm-6 ">
+                    <div class="card " id="card1">
+                        <h4><br><br><br> Hobbies</h4>
+                        <p>This is a website I made, contracted by the leading insurance in Eastern and Central Africa- Maisha Insurance.</p>
+                        <h4>Technologies Used</h4>
+                        <ul id="list ">
+                            <li>
+                                <abbr title=" Hypertext Markup Langauge ">HTML</abbr>
+                            </li>
+                            <abbr title="Cascading style sheets ">CSS</abbr>
+                            </li>
+                        </ul>
+                        <p> Project:
+                            <a href="https://github.com/MalombaKevin/maisha_insuarance.git " target="_blank "> Project Files</a>
+                        </p>
+                        <p>Site:
+                            <a href="https://malombakevin.github.io/maisha_insuarance/ " target="_blank ">www.maishainsurance.co.ke</a>
+                        </p>
+                    </div>
+                </div>
         </main>
-        <footer>
-            <div>
-                <div class=" icon ">
-                    <abbr title="Malomba on Facebook "> <i class="fab fa-facebook "></i></abbr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <abbr title="Malomba on Twitter "> <i class="fab fa-twitter "></i></abbr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <abbr title="Malomba on Instagram"><i class="fab fa-instagram "></i></abbr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                </div>
-            </div>
-        </footer>
-    </div>
+        </div>
+</body>
 
 </html>
