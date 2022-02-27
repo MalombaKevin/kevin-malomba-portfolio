@@ -1,0 +1,46 @@
+body {
+    background-image: url('image-blog-will-ai-replace-programmers.webp');
+    background-size: 130%;
+    /* height: 60vw; */
+}
+
+#row1 {
+    margin-left: 71%;
+}
+
+.icon {
+    font-size: large;
+    color: red;
+}
+
+.jumbo {
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+
+h4 {
+    color: red;
+}
+
+.card {
+    margin-left: 22.2%;
+    margin-top: 12.1em;
+    height: 33rem;
+    width: 24rem;
+    text-align: center;
+    border: 1px blue solid;
+}
+
+li {
+    list-style: none;
+}
+
+#card1 {
+    height: 5%;
+    width: 100%;
+}
+
+#icon {
+    color: blue;
+}
