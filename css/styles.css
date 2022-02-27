@@ -1,0 +1,47 @@
+        * {
+            /* color: white; */
+        }
+        
+        body {
+            background-image: url('./image-blog-will-ai-replace-programmers.webp');
+            background-size: cover;
+            /* height: 60vw; */
+        }
+        
+        .card {
+            /* margin-left: 40em; */
+            margin-top: 10em;
+            height: 20rem;
+            width: 20rem;
+        }
+        
+        .card-body {
+            text-align: center;
+        }
+        
+        #row1 {
+            margin-left: 1%;
+        }
+        
+        #card1 {
+            margin-left: 48%;
+            background-image: url('2-Man-holds-the-program-code.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        #card-body2 {
+            margin-top: 40%;
+            text-align: center;
+            font-size: xx-large;
+            color: whitesmoke;
+            font-weight: bold;
+            text-shadow: 1px 1px black;
+        }
+        
+        .card-body p {
+            color: red;
+            font-weight: bold;
+            text-shadow: 1px 1px black;
+        }
